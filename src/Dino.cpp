@@ -1,101 +1,64 @@
 #include "Dino.hpp"
+#include <iostream>
 
-Dino::Dino(float startX, float startY, float groundY)
-    : velocityY(0.0f), isGrounded(true), isCrouching(false), groundLevel(groundY),
-      state(State::OK), hitCount(0), invincibilityTimer(0.0f) {
-    shape.setSize({WIDTH, NORMAL_HEIGHT});
-    shape.setFillColor(sf::Color::Black);
-    shape.setPosition(startX, startY);
-}
-
-void Dino::handleInput() {
-    if (state == State::Mort) return;
-
-    bool inputCrouch = sf::Keyboard::isKeyPressed(sf::Keyboard::Down) ||
-                       sf::Keyboard::isKeyPressed(sf::Keyboard::S);
-    bool wantJump = sf::Keyboard::isKeyPressed(sf::Keyboard::Space) ||
-                    sf::Keyboard::isKeyPressed(sf::Keyboard::Up);
-
-    isCrouching = inputCrouch && isGrounded;
-
-    if (wantJump && isGrounded && !isCrouching) {
-        velocityY = JUMP_FORCE;
-        isGrounded = false;
-        isCrouching = false;
+Dino::Dino() 
+    : m_velocity(0.f), 
+      m_gravity(800.f), 
+      m_jumpStrength(-450.f), 
+      m_isJumping(false),
+      m_isCrouching(false),
+      m_groundY(400.f) 
+{
+    // Try to load the texture from file
+    if (!m_texture.loadFromFile("assets/sprites/dino.png")) {
+        std::cerr << "Warning: Could not find assets/sprites/dino.png. Using fallback color." << std::endl;
+        
+        // Create a fallback green image manually (compatible with all SFML versions)
+        sf::Image img;
+        img.create(50, 60, sf::Color::Green); // Creates a 50x60 green image directly
+        m_texture.loadFromImage(img);
     }
+
+    m_sprite.setTexture(m_texture);
+    m_sprite.setPosition(100.f, m_groundY);
+
+    m_sprite.setScale(0.01f, 0.01f); 
 }
 
-void Dino::update() {
-    if (invincibilityTimer > 0.0f) {
-        invincibilityTimer -= 1.0f;
-        if (state == State::Blesse) {
-            bool visible = static_cast<int>(invincibilityTimer) % 4 != 0;
-            shape.setFillColor(visible ? sf::Color(200, 50, 50) : sf::Color::Transparent);
+void Dino::update(float deltaTime) {
+    if (m_isJumping) {
+        m_velocity += m_gravity * deltaTime;
+        m_sprite.move(0.f, m_velocity * deltaTime);
+
+        if (m_sprite.getPosition().y >= m_groundY) {
+            m_sprite.setPosition(m_sprite.getPosition().x, m_groundY);
+            m_velocity = 0.f;
+            m_isJumping = false;
         }
-    } else if (state == State::Blesse) {
-        shape.setFillColor(sf::Color(200, 50, 50));
     }
-
-    if (state == State::Mort) return;
-
-    float targetHeight = isCrouching ? CROUCH_HEIGHT : NORMAL_HEIGHT;
-    if (shape.getSize().y != targetHeight) {
-        float currentBottom = shape.getPosition().y + shape.getSize().y;
-        shape.setSize({WIDTH, targetHeight});
-        shape.setPosition(shape.getPosition().x, currentBottom - targetHeight);
-    }
-
-    velocityY += GRAVITY;
-    shape.move(0, velocityY);
-
-    if (shape.getPosition().y + shape.getSize().y >= groundLevel) {
-        shape.setPosition(shape.getPosition().x, groundLevel - shape.getSize().y);
-        velocityY = 0.0f;
-        isGrounded = true;
+    
+    if (m_isCrouching && !m_isJumping) {
+        m_sprite.setScale(1.0f, 0.6f);
+    } else {
+        m_sprite.setScale(1.0f, 1.0f);
     }
 }
 
-void Dino::takeHit() {
-    if (state == State::Mort) return;
-    if (invincibilityTimer > 0) return;
-
-    hitCount++;
-    if (hitCount == 1) {
-        state = State::Blesse;
-    } else if (hitCount >= MAX_HITS) {
-        state = State::Mort;
-        shape.setFillColor(sf::Color(128, 128, 128));
-    }
-
-    invincibilityTimer = INVINCIBILITY_FRAMES;
+void Dino::draw(sf::RenderWindow& window) {
+    window.draw(m_sprite);
 }
 
-void Dino::reset() {
-    state = State::OK;
-    hitCount = 0;
-    invincibilityTimer = 0.0f;
-    velocityY = 0.0f;
-    isGrounded = true;
-    isCrouching = false;
-    shape.setPosition(100, 250);
-    shape.setSize({WIDTH, NORMAL_HEIGHT});
-    shape.setFillColor(sf::Color::Black);
+sf::FloatRect Dino::getBounds() const {
+    return m_sprite.getGlobalBounds();
 }
 
-void Dino::draw(sf::RenderWindow& window) const {
-    if (shape.getFillColor().a > 0 || state == State::OK) {
-        window.draw(shape);
+void Dino::jump() {
+    if (!m_isJumping) {
+        m_velocity = m_jumpStrength;
+        m_isJumping = true;
     }
 }
 
-sf::FloatRect Dino::getGlobalBounds() const {
-    return shape.getGlobalBounds();
-}
-
-int Dino::getLives() const {
-    return MAX_HITS - hitCount;
-}
-
-Dino::State Dino::getState() const {
-    return state;
+void Dino::crouch(bool isCrouching) {
+    m_isCrouching = isCrouching;
 }

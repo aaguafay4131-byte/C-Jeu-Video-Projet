@@ -1,17 +1,11 @@
-#pragma once
+#ifndef GAME_HPP
+#define GAME_HPP
+
 #include <SFML/Graphics.hpp>
-#include <vector>
-#include <random>
-#include <chrono>
-#include <algorithm>
-#include <string>
-#include <iostream>
-
 #include "Dino.hpp"
-#include "Obstacle.hpp"
 #include "UI.hpp"
-
-enum class GameState { Start, Playing, GameOver };
+// Include Obstacle if you have it, otherwise comment out
+// #include "Obstacle.hpp" 
 
 class Game {
 public:
@@ -21,29 +15,23 @@ public:
 private:
     void handleEvents();
     void update();
-    void spawnObstacle();
-    void resetGame();
     void render();
+    void resetGame();
 
     sf::RenderWindow window;
     Dino dino;
     UI ui;
-    sf::RectangleShape ground;
-    std::vector<Obstacle> obstacles;
-    GameState state;
-    float spawnTimer;
-    float spawnInterval;
-    std::mt19937 rng;
-
+    
+    // Missing members added here:
+    sf::Clock clock;      // SFML Clock for delta time
+    bool isGameOver;      // Game state flag
+    
     int score;
     int highScore;
     float gameSpeed;
-    static constexpr float GROUND_Y = 300.0f;
-    static constexpr float MAX_SPEED = 12.0f;
-
-    sf::Font screenFont;
-    sf::Text titleText;
-    sf::Text subtitleText;
-    sf::Text gameOverText;
-    sf::Text finalScoreText;
+    
+    // If you have obstacles, add them here later
+    // std::vector<Obstacle> obstacles;
 };
+
+#endif

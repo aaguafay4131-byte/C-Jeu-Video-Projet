@@ -44,3 +44,9 @@ add_custom_command(TARGET DinoGame POST_BUILD
     "${CMAKE_SOURCE_DIR}/font.ttf"
     $<TARGET_FILE_DIR:DinoGame>
 )
+
+add_custom_command(TARGET DinoGame POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    "${CMAKE_SOURCE_DIR}/assets"
+    "$<TARGET_FILE_DIR:DinoGame>/assets"
+)
