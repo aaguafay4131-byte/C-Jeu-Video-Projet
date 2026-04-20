@@ -1,5 +1,7 @@
-CMakeFiles/DinoGame.dir/src/Game.cpp.obj: C:\DinoGame\src\Game.cpp \
- C:\DinoGame\src\Game.hpp C:/dev/SFML/include/SFML/Graphics.hpp \
+CMakeFiles/DinoGame.dir/src/Game.cpp.obj: \
+ C:\DinoGame\C-Jeu-Video-Projet\src\Game.cpp \
+ C:\DinoGame\C-Jeu-Video-Projet\src\Game.hpp \
+ C:/dev/SFML/include/SFML/Graphics.hpp \
  C:/dev/SFML/include/SFML/Window.hpp C:/dev/SFML/include/SFML/System.hpp \
  C:/dev/SFML/include/SFML/Config.hpp \
  C:/dev/SFML/include/SFML/System/Clock.hpp \
@@ -273,5 +275,7 @@ CMakeFiles/DinoGame.dir/src/Game.cpp.obj: C:\DinoGame\src\Game.cpp \
  C:/mingw64/include/c++/13.1.0/bits/parse_numbers.h \
  C:/mingw64/include/c++/13.1.0/iostream \
  C:/mingw64/include/c++/13.1.0/istream \
- C:/mingw64/include/c++/13.1.0/bits/istream.tcc C:\DinoGame\src\Dino.hpp \
- C:\DinoGame\src\Obstacle.hpp C:\DinoGame\src\UI.hpp
+ C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
+ C:\DinoGame\C-Jeu-Video-Projet\src\Dino.hpp \
+ C:\DinoGame\C-Jeu-Video-Projet\src\Obstacle.hpp \
+ C:\DinoGame\C-Jeu-Video-Projet\src\UI.hpp

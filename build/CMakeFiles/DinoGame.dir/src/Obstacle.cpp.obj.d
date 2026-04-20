@@ -1,5 +1,6 @@
 CMakeFiles/DinoGame.dir/src/Obstacle.cpp.obj: \
- C:\DinoGame\src\Obstacle.cpp C:\DinoGame\src\Obstacle.hpp \
+ C:\DinoGame\C-Jeu-Video-Projet\src\Obstacle.cpp \
+ C:\DinoGame\C-Jeu-Video-Projet\src\Obstacle.hpp \
  C:/dev/SFML/include/SFML/Graphics.hpp \
  C:/dev/SFML/include/SFML/Window.hpp C:/dev/SFML/include/SFML/System.hpp \
  C:/dev/SFML/include/SFML/Config.hpp \

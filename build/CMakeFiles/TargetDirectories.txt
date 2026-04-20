@@ -1,3 +1,3 @@
-C:/DinoGame/build/CMakeFiles/DinoGame.dir
-C:/DinoGame/build/CMakeFiles/edit_cache.dir
-C:/DinoGame/build/CMakeFiles/rebuild_cache.dir
+C:/DinoGame/C-Jeu-Video-Projet/build/CMakeFiles/DinoGame.dir
+C:/DinoGame/C-Jeu-Video-Projet/build/CMakeFiles/edit_cache.dir
+C:/DinoGame/C-Jeu-Video-Projet/build/CMakeFiles/rebuild_cache.dir

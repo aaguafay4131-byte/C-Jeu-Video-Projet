@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/DinoGame/build/cmake_install.cmake"
+		"C:/DinoGame/C-Jeu-Video-Projet/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

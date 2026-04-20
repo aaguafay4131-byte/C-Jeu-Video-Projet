@@ -1,5 +1,7 @@
-CMakeFiles/DinoGame.dir/src/Dino.cpp.obj: C:\DinoGame\src\Dino.cpp \
- C:\DinoGame\src\Dino.hpp C:/dev/SFML/include/SFML/Graphics.hpp \
+CMakeFiles/DinoGame.dir/src/Dino.cpp.obj: \
+ C:\DinoGame\C-Jeu-Video-Projet\src\Dino.cpp \
+ C:\DinoGame\C-Jeu-Video-Projet\src\Dino.hpp \
+ C:/dev/SFML/include/SFML/Graphics.hpp \
  C:/dev/SFML/include/SFML/Window.hpp C:/dev/SFML/include/SFML/System.hpp \
  C:/dev/SFML/include/SFML/Config.hpp \
  C:/dev/SFML/include/SFML/System/Clock.hpp \

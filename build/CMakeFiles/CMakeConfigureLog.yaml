@@ -173,27 +173,22 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
-    variable: "CMAKE_CXX_COMPILER"
-    description: "CXX compiler"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
     settings:
       SearchFramework: "NEVER"
       SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
       CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "c++"
       - "g++"
-      - "cl"
-      - "bcc"
-      - "icx"
-      - "clang++"
     candidate_directories:
       - "C:/Users/aagua/bin/"
       - "C:/Program Files/Git/mingw64/bin/"
@@ -230,566 +225,101 @@ events:
       - "C:/Program Files/Git/usr/bin/vendor_perl/"
       - "C:/Program Files/Git/usr/bin/core_perl/"
     searched_directories:
-      - "C:/Users/aagua/bin/c++.com"
-      - "C:/Users/aagua/bin/c++.exe"
-      - "C:/Users/aagua/bin/c++"
       - "C:/Users/aagua/bin/g++.com"
       - "C:/Users/aagua/bin/g++.exe"
       - "C:/Users/aagua/bin/g++"
-      - "C:/Users/aagua/bin/cl.com"
-      - "C:/Users/aagua/bin/cl.exe"
-      - "C:/Users/aagua/bin/cl"
-      - "C:/Users/aagua/bin/bcc.com"
-      - "C:/Users/aagua/bin/bcc.exe"
-      - "C:/Users/aagua/bin/bcc"
-      - "C:/Users/aagua/bin/icx.com"
-      - "C:/Users/aagua/bin/icx.exe"
-      - "C:/Users/aagua/bin/icx"
-      - "C:/Users/aagua/bin/clang++.com"
-      - "C:/Users/aagua/bin/clang++.exe"
-      - "C:/Users/aagua/bin/clang++"
-      - "C:/Program Files/Git/mingw64/bin/c++.com"
-      - "C:/Program Files/Git/mingw64/bin/c++.exe"
-      - "C:/Program Files/Git/mingw64/bin/c++"
       - "C:/Program Files/Git/mingw64/bin/g++.com"
       - "C:/Program Files/Git/mingw64/bin/g++.exe"
       - "C:/Program Files/Git/mingw64/bin/g++"
-      - "C:/Program Files/Git/mingw64/bin/cl.com"
-      - "C:/Program Files/Git/mingw64/bin/cl.exe"
-      - "C:/Program Files/Git/mingw64/bin/cl"
-      - "C:/Program Files/Git/mingw64/bin/bcc.com"
-      - "C:/Program Files/Git/mingw64/bin/bcc.exe"
-      - "C:/Program Files/Git/mingw64/bin/bcc"
-      - "C:/Program Files/Git/mingw64/bin/icx.com"
-      - "C:/Program Files/Git/mingw64/bin/icx.exe"
-      - "C:/Program Files/Git/mingw64/bin/icx"
-      - "C:/Program Files/Git/mingw64/bin/clang++.com"
-      - "C:/Program Files/Git/mingw64/bin/clang++.exe"
-      - "C:/Program Files/Git/mingw64/bin/clang++"
-      - "C:/Program Files/Git/usr/local/bin/c++.com"
-      - "C:/Program Files/Git/usr/local/bin/c++.exe"
-      - "C:/Program Files/Git/usr/local/bin/c++"
       - "C:/Program Files/Git/usr/local/bin/g++.com"
       - "C:/Program Files/Git/usr/local/bin/g++.exe"
       - "C:/Program Files/Git/usr/local/bin/g++"
-      - "C:/Program Files/Git/usr/local/bin/cl.com"
-      - "C:/Program Files/Git/usr/local/bin/cl.exe"
-      - "C:/Program Files/Git/usr/local/bin/cl"
-      - "C:/Program Files/Git/usr/local/bin/bcc.com"
-      - "C:/Program Files/Git/usr/local/bin/bcc.exe"
-      - "C:/Program Files/Git/usr/local/bin/bcc"
-      - "C:/Program Files/Git/usr/local/bin/icx.com"
-      - "C:/Program Files/Git/usr/local/bin/icx.exe"
-      - "C:/Program Files/Git/usr/local/bin/icx"
-      - "C:/Program Files/Git/usr/local/bin/clang++.com"
-      - "C:/Program Files/Git/usr/local/bin/clang++.exe"
-      - "C:/Program Files/Git/usr/local/bin/clang++"
-      - "C:/Program Files/Git/usr/bin/c++.com"
-      - "C:/Program Files/Git/usr/bin/c++.exe"
-      - "C:/Program Files/Git/usr/bin/c++"
       - "C:/Program Files/Git/usr/bin/g++.com"
       - "C:/Program Files/Git/usr/bin/g++.exe"
       - "C:/Program Files/Git/usr/bin/g++"
-      - "C:/Program Files/Git/usr/bin/cl.com"
-      - "C:/Program Files/Git/usr/bin/cl.exe"
-      - "C:/Program Files/Git/usr/bin/cl"
-      - "C:/Program Files/Git/usr/bin/bcc.com"
-      - "C:/Program Files/Git/usr/bin/bcc.exe"
-      - "C:/Program Files/Git/usr/bin/bcc"
-      - "C:/Program Files/Git/usr/bin/icx.com"
-      - "C:/Program Files/Git/usr/bin/icx.exe"
-      - "C:/Program Files/Git/usr/bin/icx"
-      - "C:/Program Files/Git/usr/bin/clang++.com"
-      - "C:/Program Files/Git/usr/bin/clang++.exe"
-      - "C:/Program Files/Git/usr/bin/clang++"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/c++.com"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/c++.exe"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/c++"
       - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/g++.com"
       - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/g++.exe"
       - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/g++"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/cl.com"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/cl.exe"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/cl"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bcc.com"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bcc.exe"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bcc"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/icx.com"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/icx.exe"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/icx"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang++.com"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang++.exe"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang++"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/c++.com"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/c++.exe"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/c++"
       - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/g++.com"
       - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/g++.exe"
       - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/g++"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/cl.com"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/cl.exe"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/cl"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/bcc.com"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/bcc.exe"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/bcc"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/icx.com"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/icx.exe"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/icx"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang++.com"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang++.exe"
-      - "C:/Users/aagua/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang++"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/c++.com"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/c++.exe"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/c++"
       - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/g++.com"
       - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/g++.exe"
       - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/g++"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/cl.com"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/cl.exe"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/cl"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bcc.com"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bcc.exe"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bcc"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/icx.com"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/icx.exe"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/icx"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/clang++.com"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/clang++.exe"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/clang++"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/c++.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/c++.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/c++"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/g++.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/g++.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/g++"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/cl.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/cl.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/cl"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/bcc.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/bcc.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/bcc"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/icx.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/icx.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/icx"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/clang++.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/clang++.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/clang++"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/c++.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/c++.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/c++"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/g++.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/g++.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/g++"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang++.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang++.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang++"
-      - "C:/Windows/System32/c++.com"
-      - "C:/Windows/System32/c++.exe"
-      - "C:/Windows/System32/c++"
       - "C:/Windows/System32/g++.com"
       - "C:/Windows/System32/g++.exe"
       - "C:/Windows/System32/g++"
-      - "C:/Windows/System32/cl.com"
-      - "C:/Windows/System32/cl.exe"
-      - "C:/Windows/System32/cl"
-      - "C:/Windows/System32/bcc.com"
-      - "C:/Windows/System32/bcc.exe"
-      - "C:/Windows/System32/bcc"
-      - "C:/Windows/System32/icx.com"
-      - "C:/Windows/System32/icx.exe"
-      - "C:/Windows/System32/icx"
-      - "C:/Windows/System32/clang++.com"
-      - "C:/Windows/System32/clang++.exe"
-      - "C:/Windows/System32/clang++"
-      - "C:/Windows/c++.com"
-      - "C:/Windows/c++.exe"
-      - "C:/Windows/c++"
       - "C:/Windows/g++.com"
       - "C:/Windows/g++.exe"
       - "C:/Windows/g++"
-      - "C:/Windows/cl.com"
-      - "C:/Windows/cl.exe"
-      - "C:/Windows/cl"
-      - "C:/Windows/bcc.com"
-      - "C:/Windows/bcc.exe"
-      - "C:/Windows/bcc"
-      - "C:/Windows/icx.com"
-      - "C:/Windows/icx.exe"
-      - "C:/Windows/icx"
-      - "C:/Windows/clang++.com"
-      - "C:/Windows/clang++.exe"
-      - "C:/Windows/clang++"
-      - "C:/Windows/System32/wbem/c++.com"
-      - "C:/Windows/System32/wbem/c++.exe"
-      - "C:/Windows/System32/wbem/c++"
       - "C:/Windows/System32/wbem/g++.com"
       - "C:/Windows/System32/wbem/g++.exe"
       - "C:/Windows/System32/wbem/g++"
-      - "C:/Windows/System32/wbem/cl.com"
-      - "C:/Windows/System32/wbem/cl.exe"
-      - "C:/Windows/System32/wbem/cl"
-      - "C:/Windows/System32/wbem/bcc.com"
-      - "C:/Windows/System32/wbem/bcc.exe"
-      - "C:/Windows/System32/wbem/bcc"
-      - "C:/Windows/System32/wbem/icx.com"
-      - "C:/Windows/System32/wbem/icx.exe"
-      - "C:/Windows/System32/wbem/icx"
-      - "C:/Windows/System32/wbem/clang++.com"
-      - "C:/Windows/System32/wbem/clang++.exe"
-      - "C:/Windows/System32/wbem/clang++"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/c++.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/c++.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/c++"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/g++.com"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/g++.exe"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/g++"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang++.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang++.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang++"
-      - "C:/Windows/System32/OpenSSH/c++.com"
-      - "C:/Windows/System32/OpenSSH/c++.exe"
-      - "C:/Windows/System32/OpenSSH/c++"
       - "C:/Windows/System32/OpenSSH/g++.com"
       - "C:/Windows/System32/OpenSSH/g++.exe"
       - "C:/Windows/System32/OpenSSH/g++"
-      - "C:/Windows/System32/OpenSSH/cl.com"
-      - "C:/Windows/System32/OpenSSH/cl.exe"
-      - "C:/Windows/System32/OpenSSH/cl"
-      - "C:/Windows/System32/OpenSSH/bcc.com"
-      - "C:/Windows/System32/OpenSSH/bcc.exe"
-      - "C:/Windows/System32/OpenSSH/bcc"
-      - "C:/Windows/System32/OpenSSH/icx.com"
-      - "C:/Windows/System32/OpenSSH/icx.exe"
-      - "C:/Windows/System32/OpenSSH/icx"
-      - "C:/Windows/System32/OpenSSH/clang++.com"
-      - "C:/Windows/System32/OpenSSH/clang++.exe"
-      - "C:/Windows/System32/OpenSSH/clang++"
-      - "C:/Program Files/dotnet/c++.com"
-      - "C:/Program Files/dotnet/c++.exe"
-      - "C:/Program Files/dotnet/c++"
       - "C:/Program Files/dotnet/g++.com"
       - "C:/Program Files/dotnet/g++.exe"
       - "C:/Program Files/dotnet/g++"
-      - "C:/Program Files/dotnet/cl.com"
-      - "C:/Program Files/dotnet/cl.exe"
-      - "C:/Program Files/dotnet/cl"
-      - "C:/Program Files/dotnet/bcc.com"
-      - "C:/Program Files/dotnet/bcc.exe"
-      - "C:/Program Files/dotnet/bcc"
-      - "C:/Program Files/dotnet/icx.com"
-      - "C:/Program Files/dotnet/icx.exe"
-      - "C:/Program Files/dotnet/icx"
-      - "C:/Program Files/dotnet/clang++.com"
-      - "C:/Program Files/dotnet/clang++.exe"
-      - "C:/Program Files/dotnet/clang++"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/c++.com"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/c++.exe"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/c++"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/g++.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/g++.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/g++"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/cl.com"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/cl.exe"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/cl"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/bcc.com"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/bcc.exe"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/bcc"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/icx.com"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/icx.exe"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/icx"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/clang++.com"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/clang++.exe"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/clang++"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/c++.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/c++.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/c++"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/g++.com"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/g++.exe"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/g++"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang++.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang++.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang++"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/c++.com"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/c++.exe"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/c++"
       - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/g++.com"
       - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/g++.exe"
       - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/g++"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/cl.com"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/cl.exe"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/cl"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/bcc.com"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/bcc.exe"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/bcc"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/icx.com"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/icx.exe"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/icx"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/clang++.com"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/clang++.exe"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/clang++"
-      - "C:/Program Files/Neovim/bin/c++.com"
-      - "C:/Program Files/Neovim/bin/c++.exe"
-      - "C:/Program Files/Neovim/bin/c++"
       - "C:/Program Files/Neovim/bin/g++.com"
       - "C:/Program Files/Neovim/bin/g++.exe"
       - "C:/Program Files/Neovim/bin/g++"
-      - "C:/Program Files/Neovim/bin/cl.com"
-      - "C:/Program Files/Neovim/bin/cl.exe"
-      - "C:/Program Files/Neovim/bin/cl"
-      - "C:/Program Files/Neovim/bin/bcc.com"
-      - "C:/Program Files/Neovim/bin/bcc.exe"
-      - "C:/Program Files/Neovim/bin/bcc"
-      - "C:/Program Files/Neovim/bin/icx.com"
-      - "C:/Program Files/Neovim/bin/icx.exe"
-      - "C:/Program Files/Neovim/bin/icx"
-      - "C:/Program Files/Neovim/bin/clang++.com"
-      - "C:/Program Files/Neovim/bin/clang++.exe"
-      - "C:/Program Files/Neovim/bin/clang++"
-      - "C:/Program Files/Git/cmd/c++.com"
-      - "C:/Program Files/Git/cmd/c++.exe"
-      - "C:/Program Files/Git/cmd/c++"
       - "C:/Program Files/Git/cmd/g++.com"
       - "C:/Program Files/Git/cmd/g++.exe"
       - "C:/Program Files/Git/cmd/g++"
-      - "C:/Program Files/Git/cmd/cl.com"
-      - "C:/Program Files/Git/cmd/cl.exe"
-      - "C:/Program Files/Git/cmd/cl"
-      - "C:/Program Files/Git/cmd/bcc.com"
-      - "C:/Program Files/Git/cmd/bcc.exe"
-      - "C:/Program Files/Git/cmd/bcc"
-      - "C:/Program Files/Git/cmd/icx.com"
-      - "C:/Program Files/Git/cmd/icx.exe"
-      - "C:/Program Files/Git/cmd/icx"
-      - "C:/Program Files/Git/cmd/clang++.com"
-      - "C:/Program Files/Git/cmd/clang++.exe"
-      - "C:/Program Files/Git/cmd/clang++"
-      - "C:/Program Files/nodejs/c++.com"
-      - "C:/Program Files/nodejs/c++.exe"
-      - "C:/Program Files/nodejs/c++"
       - "C:/Program Files/nodejs/g++.com"
       - "C:/Program Files/nodejs/g++.exe"
       - "C:/Program Files/nodejs/g++"
-      - "C:/Program Files/nodejs/cl.com"
-      - "C:/Program Files/nodejs/cl.exe"
-      - "C:/Program Files/nodejs/cl"
-      - "C:/Program Files/nodejs/bcc.com"
-      - "C:/Program Files/nodejs/bcc.exe"
-      - "C:/Program Files/nodejs/bcc"
-      - "C:/Program Files/nodejs/icx.com"
-      - "C:/Program Files/nodejs/icx.exe"
-      - "C:/Program Files/nodejs/icx"
-      - "C:/Program Files/nodejs/clang++.com"
-      - "C:/Program Files/nodejs/clang++.exe"
-      - "C:/Program Files/nodejs/clang++"
-      - "C:/dev/mingw64/bin/c++.com"
-      - "C:/dev/mingw64/bin/c++.exe"
-      - "C:/dev/mingw64/bin/c++"
       - "C:/dev/mingw64/bin/g++.com"
       - "C:/dev/mingw64/bin/g++.exe"
       - "C:/dev/mingw64/bin/g++"
-      - "C:/dev/mingw64/bin/cl.com"
-      - "C:/dev/mingw64/bin/cl.exe"
-      - "C:/dev/mingw64/bin/cl"
-      - "C:/dev/mingw64/bin/bcc.com"
-      - "C:/dev/mingw64/bin/bcc.exe"
-      - "C:/dev/mingw64/bin/bcc"
-      - "C:/dev/mingw64/bin/icx.com"
-      - "C:/dev/mingw64/bin/icx.exe"
-      - "C:/dev/mingw64/bin/icx"
-      - "C:/dev/mingw64/bin/clang++.com"
-      - "C:/dev/mingw64/bin/clang++.exe"
-      - "C:/dev/mingw64/bin/clang++"
-      - "C:/Program Files/CMake/bin/c++.com"
-      - "C:/Program Files/CMake/bin/c++.exe"
-      - "C:/Program Files/CMake/bin/c++"
       - "C:/Program Files/CMake/bin/g++.com"
       - "C:/Program Files/CMake/bin/g++.exe"
       - "C:/Program Files/CMake/bin/g++"
-      - "C:/Program Files/CMake/bin/cl.com"
-      - "C:/Program Files/CMake/bin/cl.exe"
-      - "C:/Program Files/CMake/bin/cl"
-      - "C:/Program Files/CMake/bin/bcc.com"
-      - "C:/Program Files/CMake/bin/bcc.exe"
-      - "C:/Program Files/CMake/bin/bcc"
-      - "C:/Program Files/CMake/bin/icx.com"
-      - "C:/Program Files/CMake/bin/icx.exe"
-      - "C:/Program Files/CMake/bin/icx"
-      - "C:/Program Files/CMake/bin/clang++.com"
-      - "C:/Program Files/CMake/bin/clang++.exe"
-      - "C:/Program Files/CMake/bin/clang++"
-      - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/c++.com"
-      - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/c++.exe"
-      - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/c++"
       - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/g++.com"
       - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/g++.exe"
       - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/g++"
-      - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/cl.com"
-      - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/cl.exe"
-      - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/cl"
-      - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/bcc.com"
-      - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/bcc.exe"
-      - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/bcc"
-      - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/icx.com"
-      - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/icx.exe"
-      - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/icx"
-      - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/clang++.com"
-      - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/clang++.exe"
-      - "C:/Users/aagua/AppData/Local/Programs/Python/Launcher/clang++"
-      - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/c++.com"
-      - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/c++.exe"
-      - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/c++"
       - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/g++.com"
       - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/g++.exe"
       - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/g++"
-      - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/cl.com"
-      - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/cl.exe"
-      - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/cl"
-      - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/bcc.com"
-      - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/bcc.exe"
-      - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/bcc"
-      - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/icx.com"
-      - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/icx.exe"
-      - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/icx"
-      - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/clang++.com"
-      - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/clang++.exe"
-      - "C:/Users/aagua/AppData/Local/Microsoft/WindowsApps/clang++"
-      - "C:/msys64/ucrt64/bin/c++.com"
-      - "C:/msys64/ucrt64/bin/c++.exe"
-      - "C:/msys64/ucrt64/bin/c++"
       - "C:/msys64/ucrt64/bin/g++.com"
       - "C:/msys64/ucrt64/bin/g++.exe"
       - "C:/msys64/ucrt64/bin/g++"
-      - "C:/msys64/ucrt64/bin/cl.com"
-      - "C:/msys64/ucrt64/bin/cl.exe"
-      - "C:/msys64/ucrt64/bin/cl"
-      - "C:/msys64/ucrt64/bin/bcc.com"
-      - "C:/msys64/ucrt64/bin/bcc.exe"
-      - "C:/msys64/ucrt64/bin/bcc"
-      - "C:/msys64/ucrt64/bin/icx.com"
-      - "C:/msys64/ucrt64/bin/icx.exe"
-      - "C:/msys64/ucrt64/bin/icx"
-      - "C:/msys64/ucrt64/bin/clang++.com"
-      - "C:/msys64/ucrt64/bin/clang++.exe"
-      - "C:/msys64/ucrt64/bin/clang++"
-      - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/c++.com"
-      - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/c++.exe"
-      - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/c++"
       - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/g++.com"
       - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/g++.exe"
       - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/g++"
-      - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/cl.com"
-      - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/cl.exe"
-      - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/cl"
-      - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/bcc.com"
-      - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/bcc.exe"
-      - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/bcc"
-      - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/icx.com"
-      - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/icx.exe"
-      - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/icx"
-      - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/clang++.com"
-      - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/clang++.exe"
-      - "C:/Users/aagua/Downloads/mpv-x86_64-20250719-git-440f35a/clang++"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/c++.com"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/c++.exe"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/c++"
       - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/g++.com"
       - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/g++.exe"
       - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/g++"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/cl.com"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/cl.exe"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/cl"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/bcc.com"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/bcc.exe"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/bcc"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/icx.com"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/icx.exe"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/icx"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/clang++.com"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/clang++.exe"
-      - "C:/Users/aagua/AppData/Local/Programs/Microsoft VS Code/bin/clang++"
-      - "C:/Program Files/NASM/c++.com"
-      - "C:/Program Files/NASM/c++.exe"
-      - "C:/Program Files/NASM/c++"
       - "C:/Program Files/NASM/g++.com"
       - "C:/Program Files/NASM/g++.exe"
       - "C:/Program Files/NASM/g++"
-      - "C:/Program Files/NASM/cl.com"
-      - "C:/Program Files/NASM/cl.exe"
-      - "C:/Program Files/NASM/cl"
-      - "C:/Program Files/NASM/bcc.com"
-      - "C:/Program Files/NASM/bcc.exe"
-      - "C:/Program Files/NASM/bcc"
-      - "C:/Program Files/NASM/icx.com"
-      - "C:/Program Files/NASM/icx.exe"
-      - "C:/Program Files/NASM/icx"
-      - "C:/Program Files/NASM/clang++.com"
-      - "C:/Program Files/NASM/clang++.exe"
-      - "C:/Program Files/NASM/clang++"
-      - "C:/Users/aagua/AppData/Roaming/npm/c++.com"
-      - "C:/Users/aagua/AppData/Roaming/npm/c++.exe"
-      - "C:/Users/aagua/AppData/Roaming/npm/c++"
       - "C:/Users/aagua/AppData/Roaming/npm/g++.com"
       - "C:/Users/aagua/AppData/Roaming/npm/g++.exe"
       - "C:/Users/aagua/AppData/Roaming/npm/g++"
-      - "C:/Users/aagua/AppData/Roaming/npm/cl.com"
-      - "C:/Users/aagua/AppData/Roaming/npm/cl.exe"
-      - "C:/Users/aagua/AppData/Roaming/npm/cl"
-      - "C:/Users/aagua/AppData/Roaming/npm/bcc.com"
-      - "C:/Users/aagua/AppData/Roaming/npm/bcc.exe"
-      - "C:/Users/aagua/AppData/Roaming/npm/bcc"
-      - "C:/Users/aagua/AppData/Roaming/npm/icx.com"
-      - "C:/Users/aagua/AppData/Roaming/npm/icx.exe"
-      - "C:/Users/aagua/AppData/Roaming/npm/icx"
-      - "C:/Users/aagua/AppData/Roaming/npm/clang++.com"
-      - "C:/Users/aagua/AppData/Roaming/npm/clang++.exe"
-      - "C:/Users/aagua/AppData/Roaming/npm/clang++"
-      - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/c++.com"
-      - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/c++.exe"
-      - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/c++"
       - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/g++.com"
       - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/g++.exe"
       - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/g++"
-      - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/cl.com"
-      - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/cl.exe"
-      - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/cl"
-      - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/bcc.com"
-      - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/bcc.exe"
-      - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/bcc"
-      - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/icx.com"
-      - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/icx.exe"
-      - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/icx"
-      - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/clang++.com"
-      - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/clang++.exe"
-      - "C:/Users/aagua/AppData/Local/PowerToys/DSCModules/clang++"
-      - "C:/mingw64/bin/c++.com"
-    found: "C:/mingw64/bin/c++.exe"
+      - "C:/mingw64/bin/g++.com"
+    found: "C:/mingw64/bin/g++.exe"
     search_context:
       ENV{PATH}:
         - "C:\\Users\\aagua\\bin"
@@ -904,7 +434,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: C:/mingw64/bin/c++.exe 
+      Compiler: C:/mingw64/bin/g++.exe 
       Build flags: 
       Id flags:  
       
@@ -915,7 +445,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        C:/DinoGame/build/CMakeFiles/4.3.1/CompilerIdCXX/a.exe
+        C:/DinoGame/C-Jeu-Video-Projet/build/CMakeFiles/4.3.1/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
@@ -3121,8 +2651,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/DinoGame/build/CMakeFiles/CMakeScratch/TryCompile-eqf857"
-      binary: "C:/DinoGame/build/CMakeFiles/CMakeScratch/TryCompile-eqf857"
+      source: "C:/DinoGame/C-Jeu-Video-Projet/build/CMakeFiles/CMakeScratch/TryCompile-zcfpr0"
+      binary: "C:/DinoGame/C-Jeu-Video-Projet/build/CMakeFiles/CMakeScratch/TryCompile-zcfpr0"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3133,23 +2663,23 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/DinoGame/build/CMakeFiles/CMakeScratch/TryCompile-eqf857'
+        Change Dir: 'C:/DinoGame/C-Jeu-Video-Projet/build/CMakeFiles/CMakeScratch/TryCompile-zcfpr0'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_90251/fast
-        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_90251.dir\\build.make CMakeFiles/cmTC_90251.dir/build
-        mingw32-make[1]: Entering directory 'C:/DinoGame/build/CMakeFiles/CMakeScratch/TryCompile-eqf857'
-        Building CXX object CMakeFiles/cmTC_90251.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_90251.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1bd95/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1bd95.dir\\build.make CMakeFiles/cmTC_1bd95.dir/build
+        mingw32-make[1]: Entering directory 'C:/DinoGame/C-Jeu-Video-Projet/build/CMakeFiles/CMakeScratch/TryCompile-zcfpr0'
+        Building CXX object CMakeFiles/cmTC_1bd95.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_1bd95.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
-        COLLECT_GCC=C:\\mingw64\\bin\\c++.exe
+        COLLECT_GCC=C:\\mingw64\\bin\\g++.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
         Target: x86_64-w64-mingw32
         Configured with: ../configure --prefix=/R/winlibs64_stage/inst_gcc-13.1.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64_stage/custombuilt --with-mpfr=/d/Prog/winlibs64_stage/custombuilt --with-gmp=/d/Prog/winlibs64_stage/custombuilt --with-isl=/d/Prog/winlibs64_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64_stage/gcc-13.1.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64_stage/custombuilt/include/libdl-win32 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware'
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.1.0 (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_90251.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_90251.dir\\'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_90251.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\aagua\\AppData\\Local\\Temp\\ccyzHMlp.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1bd95.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1bd95.dir\\'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_1bd95.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\aagua\\AppData\\Local\\Temp\\ccSU6VSH.s
         GNU C++17 (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -3174,16 +2704,16 @@ events:
          C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 15137dcff86a3db5e0aaaf1285f715bf
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_90251.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_90251.dir\\'
-         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_90251.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\aagua\\AppData\\Local\\Temp\\ccyzHMlp.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1bd95.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1bd95.dir\\'
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_1bd95.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\aagua\\AppData\\Local\\Temp\\ccSU6VSH.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.40
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_90251.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_90251.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_90251.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_90251.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1bd95.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1bd95.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_1bd95.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1bd95.dir\\link.txt --verbose=1
         Using built-in specs.
-        COLLECT_GCC=C:\\mingw64\\bin\\c++.exe
+        COLLECT_GCC=C:\\mingw64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
         Target: x86_64-w64-mingw32
@@ -3193,16 +2723,16 @@ events:
         gcc version 13.1.0 (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders) 
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_90251.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_90251.'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\aagua\\AppData\\Local\\Temp\\cciDKNuC.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_90251.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_90251.dir/objects.a --no-whole-archive --out-implib libcmTC_90251.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1bd95.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1bd95.'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\aagua\\AppData\\Local\\Temp\\ccMLiskX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1bd95.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1bd95.dir/objects.a --no-whole-archive --out-implib libcmTC_1bd95.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
         collect2 version 13.1.0
-        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\aagua\\AppData\\Local\\Temp\\cciDKNuC.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_90251.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_90251.dir/objects.a --no-whole-archive --out-implib libcmTC_90251.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\aagua\\AppData\\Local\\Temp\\ccMLiskX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1bd95.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1bd95.dir/objects.a --no-whole-archive --out-implib libcmTC_1bd95.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.40
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_90251.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_90251.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_90251.dir/objects.a
-        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_90251.dir/objects.a @CMakeFiles\\cmTC_90251.dir\\objects1.rsp
-        C:\\mingw64\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_90251.dir/objects.a -Wl,--no-whole-archive -o cmTC_90251.exe -Wl,--out-implib,libcmTC_90251.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/DinoGame/build/CMakeFiles/CMakeScratch/TryCompile-eqf857'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1bd95.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1bd95.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_1bd95.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_1bd95.dir/objects.a @CMakeFiles\\cmTC_1bd95.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_1bd95.dir/objects.a -Wl,--no-whole-archive -o cmTC_1bd95.exe -Wl,--out-implib,libcmTC_1bd95.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/DinoGame/C-Jeu-Video-Projet/build/CMakeFiles/CMakeScratch/TryCompile-zcfpr0'
         
       exitCode: 0
   -
@@ -3243,23 +2773,23 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/DinoGame/build/CMakeFiles/CMakeScratch/TryCompile-eqf857']
+        ignore line: [Change Dir: 'C:/DinoGame/C-Jeu-Video-Projet/build/CMakeFiles/CMakeScratch/TryCompile-zcfpr0']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_90251/fast]
-        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_90251.dir\\build.make CMakeFiles/cmTC_90251.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/DinoGame/build/CMakeFiles/CMakeScratch/TryCompile-eqf857']
-        ignore line: [Building CXX object CMakeFiles/cmTC_90251.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_90251.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1bd95/fast]
+        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1bd95.dir\\build.make CMakeFiles/cmTC_1bd95.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/DinoGame/C-Jeu-Video-Projet/build/CMakeFiles/CMakeScratch/TryCompile-zcfpr0']
+        ignore line: [Building CXX object CMakeFiles/cmTC_1bd95.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_1bd95.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\c++.exe]
+        ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\g++.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../configure --prefix=/R/winlibs64_stage/inst_gcc-13.1.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64_stage/custombuilt --with-mpfr=/d/Prog/winlibs64_stage/custombuilt --with-gmp=/d/Prog/winlibs64_stage/custombuilt --with-isl=/d/Prog/winlibs64_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64_stage/gcc-13.1.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64_stage/custombuilt/include/libdl-win32 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware']
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.1.0 (MinGW-W64 x86_64-msvcrt-posix-seh  built by Brecht Sanders) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_90251.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_90251.dir\\']
-        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_90251.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\aagua\\AppData\\Local\\Temp\\ccyzHMlp.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1bd95.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1bd95.dir\\']
+        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_1bd95.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\aagua\\AppData\\Local\\Temp\\ccSU6VSH.s]
         ignore line: [GNU C++17 (MinGW-W64 x86_64-msvcrt-posix-seh  built by Brecht Sanders) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -3284,8 +2814,8 @@ events:
         ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 15137dcff86a3db5e0aaaf1285f715bf]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_90251.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_90251.dir\\']
-        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_90251.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\aagua\\AppData\\Local\\Temp\\ccyzHMlp.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1bd95.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1bd95.dir\\']
+        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_1bd95.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\aagua\\AppData\\Local\\Temp\\ccSU6VSH.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders) 2.40]
         ignore line: [COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/mingw64/bin/../libexec/gcc/]
@@ -3296,11 +2826,11 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_90251.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_90251.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_90251.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_90251.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1bd95.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1bd95.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_1bd95.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1bd95.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\c++.exe]
+        ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -3317,13 +2847,13 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_90251.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_90251.']
-        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\aagua\\AppData\\Local\\Temp\\cciDKNuC.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_90251.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_90251.dir/objects.a --no-whole-archive --out-implib libcmTC_90251.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1bd95.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1bd95.']
+        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\aagua\\AppData\\Local\\Temp\\ccMLiskX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1bd95.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1bd95.dir/objects.a --no-whole-archive --out-implib libcmTC_1bd95.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\aagua\\AppData\\Local\\Temp\\cciDKNuC.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\aagua\\AppData\\Local\\Temp\\ccMLiskX.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -3347,7 +2877,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_90251.exe] ==> ignore
+          arg [cmTC_1bd95.exe] ==> ignore
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
@@ -3358,10 +2888,10 @@ events:
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_90251.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_1bd95.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_90251.dll.a] ==> ignore
+          arg [libcmTC_1bd95.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -3388,7 +2918,7 @@ events:
           arg [-lkernel32] ==> lib [kernel32]
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
         ignore line: [collect2 version 13.1.0]
-        ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\aagua\\AppData\\Local\\Temp\\cciDKNuC.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_90251.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_90251.dir/objects.a --no-whole-archive --out-implib libcmTC_90251.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\aagua\\AppData\\Local\\Temp\\ccMLiskX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1bd95.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1bd95.dir/objects.a --no-whole-archive --out-implib libcmTC_1bd95.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
         linker tool for 'CXX': C:/mingw64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
