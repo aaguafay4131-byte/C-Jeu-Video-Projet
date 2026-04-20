@@ -1,6 +1,6 @@
-CMakeFiles/DinoGame.dir/src/UI.cpp.obj: \
- C:\DinoGame\C-Jeu-Video-Projet\src\UI.cpp \
- C:\DinoGame\C-Jeu-Video-Projet\src\UI.hpp \
+CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.obj: \
+ C:\DinoGame\C-Jeu-Video-Projet\src\GroundObstacle.cpp \
+ C:\DinoGame\C-Jeu-Video-Projet\src\GroundObstacle.hpp \
  C:/dev/SFML/include/SFML/Graphics.hpp \
  C:/dev/SFML/include/SFML/Window.hpp C:/dev/SFML/include/SFML/System.hpp \
  C:/dev/SFML/include/SFML/Config.hpp \
@@ -245,7 +245,4 @@ CMakeFiles/DinoGame.dir/src/UI.cpp.obj: \
  C:/dev/SFML/include/SFML/Graphics/Glsl.inl \
  C:/dev/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/dev/SFML/include/SFML/Graphics/Text.hpp \
- C:/dev/SFML/include/SFML/Graphics/VertexBuffer.hpp \
- C:/mingw64/include/c++/13.1.0/iostream \
- C:/mingw64/include/c++/13.1.0/istream \
- C:/mingw64/include/c++/13.1.0/bits/istream.tcc
+ C:/dev/SFML/include/SFML/Graphics/VertexBuffer.hpp

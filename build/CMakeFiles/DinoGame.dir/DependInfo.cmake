@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/DinoGame/C-Jeu-Video-Projet/src/Bird.cpp" "CMakeFiles/DinoGame.dir/src/Bird.cpp.obj" "gcc" "CMakeFiles/DinoGame.dir/src/Bird.cpp.obj.d"
   "C:/DinoGame/C-Jeu-Video-Projet/src/Dino.cpp" "CMakeFiles/DinoGame.dir/src/Dino.cpp.obj" "gcc" "CMakeFiles/DinoGame.dir/src/Dino.cpp.obj.d"
   "C:/DinoGame/C-Jeu-Video-Projet/src/Game.cpp" "CMakeFiles/DinoGame.dir/src/Game.cpp.obj" "gcc" "CMakeFiles/DinoGame.dir/src/Game.cpp.obj.d"
-  "C:/DinoGame/C-Jeu-Video-Projet/src/Obstacle.cpp" "CMakeFiles/DinoGame.dir/src/Obstacle.cpp.obj" "gcc" "CMakeFiles/DinoGame.dir/src/Obstacle.cpp.obj.d"
-  "C:/DinoGame/C-Jeu-Video-Projet/src/UI.cpp" "CMakeFiles/DinoGame.dir/src/UI.cpp.obj" "gcc" "CMakeFiles/DinoGame.dir/src/UI.cpp.obj.d"
+  "C:/DinoGame/C-Jeu-Video-Projet/src/GroundObstacle.cpp" "CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.obj" "gcc" "CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.obj.d"
   "C:/DinoGame/C-Jeu-Video-Projet/src/main.cpp" "CMakeFiles/DinoGame.dir/src/main.cpp.obj" "gcc" "CMakeFiles/DinoGame.dir/src/main.cpp.obj.d"
   )
 

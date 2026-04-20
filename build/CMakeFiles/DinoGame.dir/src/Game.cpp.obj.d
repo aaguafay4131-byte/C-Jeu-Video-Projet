@@ -247,7 +247,25 @@ CMakeFiles/DinoGame.dir/src/Game.cpp.obj: \
  C:/dev/SFML/include/SFML/Graphics/Text.hpp \
  C:/dev/SFML/include/SFML/Graphics/VertexBuffer.hpp \
  C:\DinoGame\C-Jeu-Video-Projet\src\Dino.hpp \
- C:\DinoGame\C-Jeu-Video-Projet\src\UI.hpp \
+ C:\DinoGame\C-Jeu-Video-Projet\src\GroundObstacle.hpp \
+ C:\DinoGame\C-Jeu-Video-Projet\src\Bird.hpp \
+ C:\DinoGame\C-Jeu-Video-Projet\src\GameState.hpp \
  C:/mingw64/include/c++/13.1.0/iostream \
  C:/mingw64/include/c++/13.1.0/istream \
- C:/mingw64/include/c++/13.1.0/bits/istream.tcc
+ C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
+ C:/mingw64/include/c++/13.1.0/cmath \
+ C:/mingw64/x86_64-w64-mingw32/include/math.h \
+ C:/mingw64/include/c++/13.1.0/bits/specfun.h \
+ C:/mingw64/include/c++/13.1.0/limits \
+ C:/mingw64/include/c++/13.1.0/tr1/gamma.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/special_function_util.h \
+ C:/mingw64/include/c++/13.1.0/tr1/bessel_function.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/beta_function.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/ell_integral.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/exp_integral.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/hypergeometric.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/legendre_function.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/poly_hermite.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/poly_laguerre.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/riemann_zeta.tcc

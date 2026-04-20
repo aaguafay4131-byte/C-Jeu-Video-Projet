@@ -1,31 +1,35 @@
-#ifndef DINO_HPP
-#define DINO_HPP
-
+#pragma once
 #include <SFML/Graphics.hpp>
 
 class Dino {
+private:
+    sf::RectangleShape body;
+    sf::Vector2f position;
+    float velocityY;
+    bool isGrounded;
+    bool isJumping;
+    bool isCrouching;
+    
+    // Size variables for standing and crouching
+    float standingHeight;
+    float crouchHeight;
+    float width;
+    
+    const float GRAVITY = 1200.0f;
+    const float JUMP_FORCE = -450.0f;
+    const float GROUND_Y = 500.0f;
+
 public:
     Dino();
     void update(float deltaTime);
+    void jump();
+    void crouch();
+    void stand();
     void draw(sf::RenderWindow& window);
     sf::FloatRect getBounds() const;
-    void jump();
-    void crouch(bool isCrouching);
-
-private:
-    sf::Sprite m_sprite;
-    sf::Texture m_texture;
+    void reset();
     
-    float m_velocity;
-    float m_gravity;
-    float m_jumpStrength;
-    bool m_isJumping;
-    bool m_isCrouching;
-    
-    float m_width;
-    float m_height;
-
-    float m_groundY;
+    // Getters
+    bool isCrouchingState() const { return isCrouching; }
+    bool isJumpingState() const { return isJumping; }
 };
-
-#endif

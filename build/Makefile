@@ -128,6 +128,30 @@ DinoGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/build
 .PHONY : DinoGame/fast
 
+src/Bird.obj: src/Bird.cpp.obj
+.PHONY : src/Bird.obj
+
+# target to build an object file
+src/Bird.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/Bird.cpp.obj
+.PHONY : src/Bird.cpp.obj
+
+src/Bird.i: src/Bird.cpp.i
+.PHONY : src/Bird.i
+
+# target to preprocess a source file
+src/Bird.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/Bird.cpp.i
+.PHONY : src/Bird.cpp.i
+
+src/Bird.s: src/Bird.cpp.s
+.PHONY : src/Bird.s
+
+# target to generate assembly for a file
+src/Bird.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/Bird.cpp.s
+.PHONY : src/Bird.cpp.s
+
 src/Dino.obj: src/Dino.cpp.obj
 .PHONY : src/Dino.obj
 
@@ -176,53 +200,29 @@ src/Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
 
-src/Obstacle.obj: src/Obstacle.cpp.obj
-.PHONY : src/Obstacle.obj
+src/GroundObstacle.obj: src/GroundObstacle.cpp.obj
+.PHONY : src/GroundObstacle.obj
 
 # target to build an object file
-src/Obstacle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/Obstacle.cpp.obj
-.PHONY : src/Obstacle.cpp.obj
+src/GroundObstacle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.obj
+.PHONY : src/GroundObstacle.cpp.obj
 
-src/Obstacle.i: src/Obstacle.cpp.i
-.PHONY : src/Obstacle.i
-
-# target to preprocess a source file
-src/Obstacle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/Obstacle.cpp.i
-.PHONY : src/Obstacle.cpp.i
-
-src/Obstacle.s: src/Obstacle.cpp.s
-.PHONY : src/Obstacle.s
-
-# target to generate assembly for a file
-src/Obstacle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/Obstacle.cpp.s
-.PHONY : src/Obstacle.cpp.s
-
-src/UI.obj: src/UI.cpp.obj
-.PHONY : src/UI.obj
-
-# target to build an object file
-src/UI.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/UI.cpp.obj
-.PHONY : src/UI.cpp.obj
-
-src/UI.i: src/UI.cpp.i
-.PHONY : src/UI.i
+src/GroundObstacle.i: src/GroundObstacle.cpp.i
+.PHONY : src/GroundObstacle.i
 
 # target to preprocess a source file
-src/UI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/UI.cpp.i
-.PHONY : src/UI.cpp.i
+src/GroundObstacle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.i
+.PHONY : src/GroundObstacle.cpp.i
 
-src/UI.s: src/UI.cpp.s
-.PHONY : src/UI.s
+src/GroundObstacle.s: src/GroundObstacle.cpp.s
+.PHONY : src/GroundObstacle.s
 
 # target to generate assembly for a file
-src/UI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/UI.cpp.s
-.PHONY : src/UI.cpp.s
+src/GroundObstacle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.s
+.PHONY : src/GroundObstacle.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -257,18 +257,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DinoGame
+	@echo ... src/Bird.obj
+	@echo ... src/Bird.i
+	@echo ... src/Bird.s
 	@echo ... src/Dino.obj
 	@echo ... src/Dino.i
 	@echo ... src/Dino.s
 	@echo ... src/Game.obj
 	@echo ... src/Game.i
 	@echo ... src/Game.s
-	@echo ... src/Obstacle.obj
-	@echo ... src/Obstacle.i
-	@echo ... src/Obstacle.s
-	@echo ... src/UI.obj
-	@echo ... src/UI.i
-	@echo ... src/UI.s
+	@echo ... src/GroundObstacle.obj
+	@echo ... src/GroundObstacle.i
+	@echo ... src/GroundObstacle.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

@@ -11,9 +11,9 @@ set(SFML_ROOT "C:/dev/SFML")
 add_executable(DinoGame 
     src/main.cpp
     src/Dino.cpp
-    src/Obstacle.cpp
-    src/UI.cpp
+    src/GroundObstacle.cpp
     src/Game.cpp
+    src/Bird.cpp
 )
 
 # SFML Include Directories - Use PUBLIC so headers can find SFML

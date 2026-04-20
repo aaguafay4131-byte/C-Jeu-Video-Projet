@@ -101,41 +101,26 @@ CMakeFiles/DinoGame.dir/src/Dino.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DinoGame.dir/src/Dino.cpp.s"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DinoGame\C-Jeu-Video-Projet\src\Dino.cpp -o CMakeFiles\DinoGame.dir\src\Dino.cpp.s
 
-CMakeFiles/DinoGame.dir/src/Obstacle.cpp.obj: CMakeFiles/DinoGame.dir/flags.make
-CMakeFiles/DinoGame.dir/src/Obstacle.cpp.obj: CMakeFiles/DinoGame.dir/includes_CXX.rsp
-CMakeFiles/DinoGame.dir/src/Obstacle.cpp.obj: C:/DinoGame/C-Jeu-Video-Projet/src/Obstacle.cpp
-CMakeFiles/DinoGame.dir/src/Obstacle.cpp.obj: CMakeFiles/DinoGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\DinoGame\C-Jeu-Video-Projet\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DinoGame.dir/src/Obstacle.cpp.obj"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DinoGame.dir/src/Obstacle.cpp.obj -MF CMakeFiles\DinoGame.dir\src\Obstacle.cpp.obj.d -o CMakeFiles\DinoGame.dir\src\Obstacle.cpp.obj -c C:\DinoGame\C-Jeu-Video-Projet\src\Obstacle.cpp
+CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.obj: CMakeFiles/DinoGame.dir/flags.make
+CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.obj: CMakeFiles/DinoGame.dir/includes_CXX.rsp
+CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.obj: C:/DinoGame/C-Jeu-Video-Projet/src/GroundObstacle.cpp
+CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.obj: CMakeFiles/DinoGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\DinoGame\C-Jeu-Video-Projet\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.obj -MF CMakeFiles\DinoGame.dir\src\GroundObstacle.cpp.obj.d -o CMakeFiles\DinoGame.dir\src\GroundObstacle.cpp.obj -c C:\DinoGame\C-Jeu-Video-Projet\src\GroundObstacle.cpp
 
-CMakeFiles/DinoGame.dir/src/Obstacle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DinoGame.dir/src/Obstacle.cpp.i"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\DinoGame\C-Jeu-Video-Projet\src\Obstacle.cpp > CMakeFiles\DinoGame.dir\src\Obstacle.cpp.i
+CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\DinoGame\C-Jeu-Video-Projet\src\GroundObstacle.cpp > CMakeFiles\DinoGame.dir\src\GroundObstacle.cpp.i
 
-CMakeFiles/DinoGame.dir/src/Obstacle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DinoGame.dir/src/Obstacle.cpp.s"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DinoGame\C-Jeu-Video-Projet\src\Obstacle.cpp -o CMakeFiles\DinoGame.dir\src\Obstacle.cpp.s
-
-CMakeFiles/DinoGame.dir/src/UI.cpp.obj: CMakeFiles/DinoGame.dir/flags.make
-CMakeFiles/DinoGame.dir/src/UI.cpp.obj: CMakeFiles/DinoGame.dir/includes_CXX.rsp
-CMakeFiles/DinoGame.dir/src/UI.cpp.obj: C:/DinoGame/C-Jeu-Video-Projet/src/UI.cpp
-CMakeFiles/DinoGame.dir/src/UI.cpp.obj: CMakeFiles/DinoGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\DinoGame\C-Jeu-Video-Projet\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DinoGame.dir/src/UI.cpp.obj"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DinoGame.dir/src/UI.cpp.obj -MF CMakeFiles\DinoGame.dir\src\UI.cpp.obj.d -o CMakeFiles\DinoGame.dir\src\UI.cpp.obj -c C:\DinoGame\C-Jeu-Video-Projet\src\UI.cpp
-
-CMakeFiles/DinoGame.dir/src/UI.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DinoGame.dir/src/UI.cpp.i"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\DinoGame\C-Jeu-Video-Projet\src\UI.cpp > CMakeFiles\DinoGame.dir\src\UI.cpp.i
-
-CMakeFiles/DinoGame.dir/src/UI.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DinoGame.dir/src/UI.cpp.s"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DinoGame\C-Jeu-Video-Projet\src\UI.cpp -o CMakeFiles\DinoGame.dir\src\UI.cpp.s
+CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DinoGame\C-Jeu-Video-Projet\src\GroundObstacle.cpp -o CMakeFiles\DinoGame.dir\src\GroundObstacle.cpp.s
 
 CMakeFiles/DinoGame.dir/src/Game.cpp.obj: CMakeFiles/DinoGame.dir/flags.make
 CMakeFiles/DinoGame.dir/src/Game.cpp.obj: CMakeFiles/DinoGame.dir/includes_CXX.rsp
 CMakeFiles/DinoGame.dir/src/Game.cpp.obj: C:/DinoGame/C-Jeu-Video-Projet/src/Game.cpp
 CMakeFiles/DinoGame.dir/src/Game.cpp.obj: CMakeFiles/DinoGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\DinoGame\C-Jeu-Video-Projet\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DinoGame.dir/src/Game.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\DinoGame\C-Jeu-Video-Projet\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DinoGame.dir/src/Game.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DinoGame.dir/src/Game.cpp.obj -MF CMakeFiles\DinoGame.dir\src\Game.cpp.obj.d -o CMakeFiles\DinoGame.dir\src\Game.cpp.obj -c C:\DinoGame\C-Jeu-Video-Projet\src\Game.cpp
 
 CMakeFiles/DinoGame.dir/src/Game.cpp.i: cmake_force
@@ -146,22 +131,37 @@ CMakeFiles/DinoGame.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DinoGame.dir/src/Game.cpp.s"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DinoGame\C-Jeu-Video-Projet\src\Game.cpp -o CMakeFiles\DinoGame.dir\src\Game.cpp.s
 
+CMakeFiles/DinoGame.dir/src/Bird.cpp.obj: CMakeFiles/DinoGame.dir/flags.make
+CMakeFiles/DinoGame.dir/src/Bird.cpp.obj: CMakeFiles/DinoGame.dir/includes_CXX.rsp
+CMakeFiles/DinoGame.dir/src/Bird.cpp.obj: C:/DinoGame/C-Jeu-Video-Projet/src/Bird.cpp
+CMakeFiles/DinoGame.dir/src/Bird.cpp.obj: CMakeFiles/DinoGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\DinoGame\C-Jeu-Video-Projet\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DinoGame.dir/src/Bird.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DinoGame.dir/src/Bird.cpp.obj -MF CMakeFiles\DinoGame.dir\src\Bird.cpp.obj.d -o CMakeFiles\DinoGame.dir\src\Bird.cpp.obj -c C:\DinoGame\C-Jeu-Video-Projet\src\Bird.cpp
+
+CMakeFiles/DinoGame.dir/src/Bird.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DinoGame.dir/src/Bird.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\DinoGame\C-Jeu-Video-Projet\src\Bird.cpp > CMakeFiles\DinoGame.dir\src\Bird.cpp.i
+
+CMakeFiles/DinoGame.dir/src/Bird.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DinoGame.dir/src/Bird.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DinoGame\C-Jeu-Video-Projet\src\Bird.cpp -o CMakeFiles\DinoGame.dir\src\Bird.cpp.s
+
 # Object files for target DinoGame
 DinoGame_OBJECTS = \
 "CMakeFiles/DinoGame.dir/src/main.cpp.obj" \
 "CMakeFiles/DinoGame.dir/src/Dino.cpp.obj" \
-"CMakeFiles/DinoGame.dir/src/Obstacle.cpp.obj" \
-"CMakeFiles/DinoGame.dir/src/UI.cpp.obj" \
-"CMakeFiles/DinoGame.dir/src/Game.cpp.obj"
+"CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.obj" \
+"CMakeFiles/DinoGame.dir/src/Game.cpp.obj" \
+"CMakeFiles/DinoGame.dir/src/Bird.cpp.obj"
 
 # External object files for target DinoGame
 DinoGame_EXTERNAL_OBJECTS =
 
 DinoGame.exe: CMakeFiles/DinoGame.dir/src/main.cpp.obj
 DinoGame.exe: CMakeFiles/DinoGame.dir/src/Dino.cpp.obj
-DinoGame.exe: CMakeFiles/DinoGame.dir/src/Obstacle.cpp.obj
-DinoGame.exe: CMakeFiles/DinoGame.dir/src/UI.cpp.obj
+DinoGame.exe: CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.obj
 DinoGame.exe: CMakeFiles/DinoGame.dir/src/Game.cpp.obj
+DinoGame.exe: CMakeFiles/DinoGame.dir/src/Bird.cpp.obj
 DinoGame.exe: CMakeFiles/DinoGame.dir/build.make
 DinoGame.exe: CMakeFiles/DinoGame.dir/linkLibs.rsp
 DinoGame.exe: CMakeFiles/DinoGame.dir/objects1.rsp

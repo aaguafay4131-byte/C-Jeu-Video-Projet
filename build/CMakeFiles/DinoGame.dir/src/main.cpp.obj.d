@@ -247,4 +247,6 @@ CMakeFiles/DinoGame.dir/src/main.cpp.obj: \
  C:/dev/SFML/include/SFML/Graphics/Text.hpp \
  C:/dev/SFML/include/SFML/Graphics/VertexBuffer.hpp \
  C:\DinoGame\C-Jeu-Video-Projet\src\Dino.hpp \
- C:\DinoGame\C-Jeu-Video-Projet\src\UI.hpp
+ C:\DinoGame\C-Jeu-Video-Projet\src\GroundObstacle.hpp \
+ C:\DinoGame\C-Jeu-Video-Projet\src\Bird.hpp \
+ C:\DinoGame\C-Jeu-Video-Projet\src\GameState.hpp
