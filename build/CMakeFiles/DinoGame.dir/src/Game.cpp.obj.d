@@ -246,36 +246,8 @@ CMakeFiles/DinoGame.dir/src/Game.cpp.obj: \
  C:/dev/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/dev/SFML/include/SFML/Graphics/Text.hpp \
  C:/dev/SFML/include/SFML/Graphics/VertexBuffer.hpp \
- C:/mingw64/include/c++/13.1.0/random C:/mingw64/include/c++/13.1.0/cmath \
- C:/mingw64/x86_64-w64-mingw32/include/math.h \
- C:/mingw64/include/c++/13.1.0/bits/specfun.h \
- C:/mingw64/include/c++/13.1.0/limits \
- C:/mingw64/include/c++/13.1.0/tr1/gamma.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/special_function_util.h \
- C:/mingw64/include/c++/13.1.0/tr1/bessel_function.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/beta_function.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/ell_integral.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/exp_integral.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/hypergeometric.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/legendre_function.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/poly_hermite.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/poly_laguerre.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/riemann_zeta.tcc \
- C:/mingw64/include/c++/13.1.0/cstdint \
- C:/mingw64/include/c++/13.1.0/bits/random.h \
- C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/opt_random.h \
- C:/mingw64/include/c++/13.1.0/bits/random.tcc \
- C:/mingw64/include/c++/13.1.0/numeric \
- C:/mingw64/include/c++/13.1.0/bits/stl_numeric.h \
- C:/mingw64/include/c++/13.1.0/pstl/glue_numeric_defs.h \
- C:/mingw64/include/c++/13.1.0/chrono \
- C:/mingw64/include/c++/13.1.0/bits/chrono.h \
- C:/mingw64/include/c++/13.1.0/ratio \
- C:/mingw64/include/c++/13.1.0/bits/parse_numbers.h \
+ C:\DinoGame\C-Jeu-Video-Projet\src\Dino.hpp \
+ C:\DinoGame\C-Jeu-Video-Projet\src\UI.hpp \
  C:/mingw64/include/c++/13.1.0/iostream \
  C:/mingw64/include/c++/13.1.0/istream \
- C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
- C:\DinoGame\C-Jeu-Video-Projet\src\Dino.hpp \
- C:\DinoGame\C-Jeu-Video-Projet\src\Obstacle.hpp \
- C:\DinoGame\C-Jeu-Video-Projet\src\UI.hpp
+ C:/mingw64/include/c++/13.1.0/bits/istream.tcc
