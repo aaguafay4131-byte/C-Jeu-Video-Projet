@@ -3,11 +3,13 @@
 
 class GroundObstacle {
 private:
-    sf::RectangleShape body;
+    sf::Texture spriteSheet;
+    sf::Sprite sprite;
     sf::Vector2f position;
     float speed;
     float width;
     float height;
+    int cactusType; // 0 = small, 1 = large
 
 public:
     GroundObstacle(float startX);

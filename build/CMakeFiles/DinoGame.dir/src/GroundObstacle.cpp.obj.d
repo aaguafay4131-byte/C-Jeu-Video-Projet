@@ -245,4 +245,7 @@ CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.obj: \
  C:/dev/SFML/include/SFML/Graphics/Glsl.inl \
  C:/dev/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/dev/SFML/include/SFML/Graphics/Text.hpp \
- C:/dev/SFML/include/SFML/Graphics/VertexBuffer.hpp
+ C:/dev/SFML/include/SFML/Graphics/VertexBuffer.hpp \
+ C:/mingw64/include/c++/13.1.0/iostream \
+ C:/mingw64/include/c++/13.1.0/istream \
+ C:/mingw64/include/c++/13.1.0/bits/istream.tcc

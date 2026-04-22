@@ -128,29 +128,53 @@ DinoGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/build
 .PHONY : DinoGame/fast
 
-src/Bird.obj: src/Bird.cpp.obj
-.PHONY : src/Bird.obj
+src/AboutScreen.obj: src/AboutScreen.cpp.obj
+.PHONY : src/AboutScreen.obj
 
 # target to build an object file
-src/Bird.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/Bird.cpp.obj
-.PHONY : src/Bird.cpp.obj
+src/AboutScreen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/AboutScreen.cpp.obj
+.PHONY : src/AboutScreen.cpp.obj
 
-src/Bird.i: src/Bird.cpp.i
-.PHONY : src/Bird.i
+src/AboutScreen.i: src/AboutScreen.cpp.i
+.PHONY : src/AboutScreen.i
 
 # target to preprocess a source file
-src/Bird.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/Bird.cpp.i
-.PHONY : src/Bird.cpp.i
+src/AboutScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/AboutScreen.cpp.i
+.PHONY : src/AboutScreen.cpp.i
 
-src/Bird.s: src/Bird.cpp.s
-.PHONY : src/Bird.s
+src/AboutScreen.s: src/AboutScreen.cpp.s
+.PHONY : src/AboutScreen.s
 
 # target to generate assembly for a file
-src/Bird.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/Bird.cpp.s
-.PHONY : src/Bird.cpp.s
+src/AboutScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/AboutScreen.cpp.s
+.PHONY : src/AboutScreen.cpp.s
+
+src/Arrow.obj: src/Arrow.cpp.obj
+.PHONY : src/Arrow.obj
+
+# target to build an object file
+src/Arrow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/Arrow.cpp.obj
+.PHONY : src/Arrow.cpp.obj
+
+src/Arrow.i: src/Arrow.cpp.i
+.PHONY : src/Arrow.i
+
+# target to preprocess a source file
+src/Arrow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/Arrow.cpp.i
+.PHONY : src/Arrow.cpp.i
+
+src/Arrow.s: src/Arrow.cpp.s
+.PHONY : src/Arrow.s
+
+# target to generate assembly for a file
+src/Arrow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/Arrow.cpp.s
+.PHONY : src/Arrow.cpp.s
 
 src/Dino.obj: src/Dino.cpp.obj
 .PHONY : src/Dino.obj
@@ -224,6 +248,78 @@ src/GroundObstacle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/GroundObstacle.cpp.s
 .PHONY : src/GroundObstacle.cpp.s
 
+src/HeartUI.obj: src/HeartUI.cpp.obj
+.PHONY : src/HeartUI.obj
+
+# target to build an object file
+src/HeartUI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/HeartUI.cpp.obj
+.PHONY : src/HeartUI.cpp.obj
+
+src/HeartUI.i: src/HeartUI.cpp.i
+.PHONY : src/HeartUI.i
+
+# target to preprocess a source file
+src/HeartUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/HeartUI.cpp.i
+.PHONY : src/HeartUI.cpp.i
+
+src/HeartUI.s: src/HeartUI.cpp.s
+.PHONY : src/HeartUI.s
+
+# target to generate assembly for a file
+src/HeartUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/HeartUI.cpp.s
+.PHONY : src/HeartUI.cpp.s
+
+src/Menu.obj: src/Menu.cpp.obj
+.PHONY : src/Menu.obj
+
+# target to build an object file
+src/Menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/Menu.cpp.obj
+.PHONY : src/Menu.cpp.obj
+
+src/Menu.i: src/Menu.cpp.i
+.PHONY : src/Menu.i
+
+# target to preprocess a source file
+src/Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/Menu.cpp.i
+.PHONY : src/Menu.cpp.i
+
+src/Menu.s: src/Menu.cpp.s
+.PHONY : src/Menu.s
+
+# target to generate assembly for a file
+src/Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/Menu.cpp.s
+.PHONY : src/Menu.cpp.s
+
+src/SimpleBackground.obj: src/SimpleBackground.cpp.obj
+.PHONY : src/SimpleBackground.obj
+
+# target to build an object file
+src/SimpleBackground.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/SimpleBackground.cpp.obj
+.PHONY : src/SimpleBackground.cpp.obj
+
+src/SimpleBackground.i: src/SimpleBackground.cpp.i
+.PHONY : src/SimpleBackground.i
+
+# target to preprocess a source file
+src/SimpleBackground.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/SimpleBackground.cpp.i
+.PHONY : src/SimpleBackground.cpp.i
+
+src/SimpleBackground.s: src/SimpleBackground.cpp.s
+.PHONY : src/SimpleBackground.s
+
+# target to generate assembly for a file
+src/SimpleBackground.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DinoGame.dir\build.make CMakeFiles/DinoGame.dir/src/SimpleBackground.cpp.s
+.PHONY : src/SimpleBackground.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -257,9 +353,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DinoGame
-	@echo ... src/Bird.obj
-	@echo ... src/Bird.i
-	@echo ... src/Bird.s
+	@echo ... src/AboutScreen.obj
+	@echo ... src/AboutScreen.i
+	@echo ... src/AboutScreen.s
+	@echo ... src/Arrow.obj
+	@echo ... src/Arrow.i
+	@echo ... src/Arrow.s
 	@echo ... src/Dino.obj
 	@echo ... src/Dino.i
 	@echo ... src/Dino.s
@@ -269,6 +368,15 @@ help:
 	@echo ... src/GroundObstacle.obj
 	@echo ... src/GroundObstacle.i
 	@echo ... src/GroundObstacle.s
+	@echo ... src/HeartUI.obj
+	@echo ... src/HeartUI.i
+	@echo ... src/HeartUI.s
+	@echo ... src/Menu.obj
+	@echo ... src/Menu.i
+	@echo ... src/Menu.s
+	@echo ... src/SimpleBackground.obj
+	@echo ... src/SimpleBackground.i
+	@echo ... src/SimpleBackground.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

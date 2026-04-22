@@ -1,6 +1,6 @@
-CMakeFiles/DinoGame.dir/src/Game.cpp.obj: \
- C:\DinoGame\C-Jeu-Video-Projet\src\Game.cpp \
- C:\DinoGame\C-Jeu-Video-Projet\src\Game.hpp \
+CMakeFiles/DinoGame.dir/src/Arrow.cpp.obj: \
+ C:\DinoGame\C-Jeu-Video-Projet\src\Arrow.cpp \
+ C:\DinoGame\C-Jeu-Video-Projet\src\Arrow.hpp \
  C:/dev/SFML/include/SFML/Graphics.hpp \
  C:/dev/SFML/include/SFML/Window.hpp C:/dev/SFML/include/SFML/System.hpp \
  C:/dev/SFML/include/SFML/Config.hpp \
@@ -246,17 +246,6 @@ CMakeFiles/DinoGame.dir/src/Game.cpp.obj: \
  C:/dev/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/dev/SFML/include/SFML/Graphics/Text.hpp \
  C:/dev/SFML/include/SFML/Graphics/VertexBuffer.hpp \
- C:\DinoGame\C-Jeu-Video-Projet\src\Dino.hpp \
- C:\DinoGame\C-Jeu-Video-Projet\src\GroundObstacle.hpp \
- C:\DinoGame\C-Jeu-Video-Projet\src\Arrow.hpp \
- C:\DinoGame\C-Jeu-Video-Projet\src\HeartUI.hpp \
- C:\DinoGame\C-Jeu-Video-Projet\src\Menu.hpp \
- C:\DinoGame\C-Jeu-Video-Projet\src\AboutScreen.hpp \
- C:\DinoGame\C-Jeu-Video-Projet\src\GameState.hpp \
- C:\DinoGame\C-Jeu-Video-Projet\src\SimpleBackground.hpp \
- C:/mingw64/include/c++/13.1.0/iostream \
- C:/mingw64/include/c++/13.1.0/istream \
- C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
  C:/mingw64/include/c++/13.1.0/cmath \
  C:/mingw64/x86_64-w64-mingw32/include/math.h \
  C:/mingw64/include/c++/13.1.0/bits/specfun.h \

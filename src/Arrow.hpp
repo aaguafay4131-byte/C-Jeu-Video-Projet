@@ -1,21 +1,21 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 
-class Bird {
+class Arrow {
 private:
-    sf::RectangleShape body;
-    sf::RectangleShape leftWing;
-    sf::RectangleShape rightWing;
+    sf::RectangleShape shaft;
+    sf::CircleShape tip;
+    sf::RectangleShape fletching1;
+    sf::RectangleShape fletching2;
     sf::Vector2f position;
     float speed;
     float width;
     float height;
-    float wingAngle;
-    float wingAnimationTime;
-    bool isFlying;
+    
+    void updatePartsPosition();
 
 public:
-    Bird(float startX);
+    Arrow(float startX);
     void update(float deltaTime);
     void draw(sf::RenderWindow& window);
     sf::FloatRect getBounds() const;

@@ -13,7 +13,11 @@ add_executable(DinoGame
     src/Dino.cpp
     src/GroundObstacle.cpp
     src/Game.cpp
-    src/Bird.cpp
+    src/Arrow.cpp
+    src/HeartUI.cpp
+    src/AboutScreen.cpp
+    src/Menu.cpp
+    src/SimpleBackground.cpp
 )
 
 # SFML Include Directories - Use PUBLIC so headers can find SFML
@@ -38,15 +42,8 @@ add_custom_command(TARGET DinoGame POST_BUILD
     $<TARGET_FILE_DIR:DinoGame>
 )
 
-# Copy font.ttf to build folder
-add_custom_command(TARGET DinoGame POST_BUILD
-    COMMAND ${CMAKE_COMMAND} -E copy_if_different
-    "${CMAKE_SOURCE_DIR}/font.ttf"
-    $<TARGET_FILE_DIR:DinoGame>
-)
-
 add_custom_command(TARGET DinoGame POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_directory
-    "${CMAKE_SOURCE_DIR}/assets"
-    "$<TARGET_FILE_DIR:DinoGame>/assets"
+    "${CMAKE_SOURCE_DIR}/resources"
+    "$<TARGET_FILE_DIR:DinoGame>/resources"
 )
